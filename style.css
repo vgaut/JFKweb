@@ -127,7 +127,7 @@
 
 .search-container i{
     position: relative;
-    top: 10%;
+    top: 10%;   
     right: 30px;
     transform: translateY(0%);
     color: #555;
@@ -142,6 +142,16 @@
     padding-bottom: 10%;
     padding-top: 1.4%;
 
+}
+
+.new-containerr{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 1.4%;
+    max-width: 900px;
 }
 
 .contact-inputs{
@@ -186,6 +196,25 @@ input[type="submit"] {
     font-size: 1em;
 
 }
+
+input[name="submit2"] {
+    padding: 0.2em 0.8em;
+    background:#3fb0fb66;
+    border-radius: 10px;
+    border-color: #ffa070;
+    font-size: 1.2em;
+
+}
+
+select[name="project name"] {
+    padding: 0.em 0.8em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ffa070;
+    font-size: 1em;
+
+}
+
 input[type="submit"]:hover{
     background-color: #ffa070;
     transition: 0.3s ease-in-out;
